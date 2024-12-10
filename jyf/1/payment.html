@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Section</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #2c3e50;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .container {
+        text-align: center;
+      }
+      .payment-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .payment-image {
+        width: 100%; /* Ensures the image will scale based on the container width */
+        max-width: 1600px; /* Increased the max-width to make the image much larger */
+        height: 0;
+        padding-top: 56.25%; /* Maintains a 16:9 aspect ratio */
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        margin: 0 auto;
+        background-image: url('ok.jpg'); /* Replace 'ok.jpg' with your image URL */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Title: PAYMENT -->
+      <p class="payment-title">PAYMENT</p>
+
+      <!-- Image -->
+      <div class="payment-image" style="background-image: url('ok.jpg')"></div>
+    </div>
+  </body>
+</html>
